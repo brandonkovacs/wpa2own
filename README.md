@@ -40,6 +40,10 @@ EXAMPLE: to install all software requirements in Kali Linux:
 
 __TODO: include package list for other Linux distros. LMK if you figure any out!__
 
+
+Centos 7:
+```sudo yum install openssl-devel openssl-libs zlib zlib-devel libcurl libcurl-devel libpcap-devel```
+
 ### Tools that the script will download and build
 
 - hcxdumptool (v4.2.0+)
