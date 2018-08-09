@@ -36,6 +36,7 @@ if [ ! -f "bin/hashcat" ]; then
 	git submodule update --init
 	make
 	mv hashcat ../../bin/
+	cp -r OpenCL/ ../../bin/
 	cd ../..
 fi
 
